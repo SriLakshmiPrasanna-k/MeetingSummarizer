@@ -1,0 +1,24 @@
+# Virtual Environment
+venv/
+.venv/
+env/
+.env
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Uploads
+Backend/uploads/
+uploads/
+
+# IDE specific
+.vscode/
+.idea/
+
+# Ignore large model files from Hugging Face
+Backend/models/
+frontend/build/
+node_modules/
